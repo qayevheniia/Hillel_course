@@ -71,11 +71,13 @@ Your speed in km/h is 0.42089513*/
 
 //5. Write a Java program to generate random integers in a specific range.(Hint: Use Math class)
 
+
         int minimum = 10;
         int maximum =150;
 
         System.out.println("random integer = " + ((minimum + (int)(Math.random() * (maximum-minimum)))));
-
+//I don't understand Do we need to include specific max and minimum numbers in range?
+// So I did that max number isn't included but min is included in
 
     }
 }
